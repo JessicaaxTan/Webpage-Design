@@ -4,7 +4,7 @@
 }
 
 .main{
-    width: 120%;
+    width: 100%;
     background: url(4.JPG);
     background-size: cover;
     height: 130vh;
@@ -67,7 +67,7 @@ ul li a:hover{
 .content{
     width: 1200px;
     height: auto;
-    margin-left: 230px;
+    margin-left: 80px;
     color: #fff;
     position: relative;
 }
