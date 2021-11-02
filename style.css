@@ -4,10 +4,11 @@
 }
 
 .main{
-    width: 100%;
+    width: 207.9vh;
     background: url(4.JPG);
     background-size: cover;
     height: 130vh;
+    transform: scale(1.015);
 }
 
 .navbar{
