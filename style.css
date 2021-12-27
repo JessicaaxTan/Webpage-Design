@@ -8,7 +8,7 @@
     background: url(4.JPG);
     background-size: cover;
     height: 130vh;
-    transform: scale(1.015);
+    transform: scale(1);
 }
 
 .navbar{
@@ -36,6 +36,7 @@
     width: 400px;
     float: left;
     height: 70px;
+    margin-top: 10px;
 }
 
 ul{
@@ -75,10 +76,11 @@ ul li a:hover{
 
 .content .par{
     padding-left: 20px;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     font-family: Arial;
     letter-spacing: 1.2px;
-    line-height: 30px;
+    line-height: 24px;
 }
 
 .content h1{
@@ -95,3 +97,107 @@ ul li a:hover{
     background: #ff7200;
     border: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer{
+    color: #ff7200;
+    font-size: 12px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 120px;
+}
+
+.morestuff{
+    display: none;
+    top:4.8%;
+    position: relative;
+}
+
+.morestuff ul{
+    position: absolute;
+}
+
+.menu ul li:hover .morestuff{
+    display: block;
+    position: absolute; 
+    background-color: #ff7200;
+    margin-top: 17px;
+    margin-left: -180px;
+}
+
+.menu ul li:hover .morestuff ul{
+    display: block;
+    margin: 5px;
+    z-index: 100;
+}
+
+.menu ul li:hover .morestuff ul li{
+    width: 110px;
+    padding: 12px;
+    border-bottom: 1px #fff;
+    background: #000;
+    transition: 0.4s ease;
+    text-align: left;
+    border-radius: 0;
+}
+
+.mainfablab{
+    width: 207.9vh;
+    background: url(6.svg);
+    background-size: cover;
+    transform: scale(1);
+}
+
+.content h2{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+}
+
+.content embed {
+    width: 130vh;
+    height: 600px;
+    padding-left: 20px;
+}
+
+.content h3{
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 4%;
+    letter-spacing: 1px;
+}
+
+.content h4{
+    font-family: Arial;
+    padding-left: 20px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 21px;
+
+}
+
