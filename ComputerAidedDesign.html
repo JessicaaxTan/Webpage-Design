@@ -5,7 +5,7 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <div class="mainfablab">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">WELCOME</h2>
@@ -14,19 +14,20 @@
             <div class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="AboutMe.html">About Me</a></li>
                     <li><a href="FabLabSafety.html">FabLab Safety</a></li>
+                    <li><a href="WebDevelopment.html">Web Development</a></li>
                     
+                    <div class="dropdown">
                     <li><a href="+">Projects</a>
                     <div class="morestuff">
                      <ul>
-                         <li><a href="WebDevelopment.html">Web Development</a></li>
-                         <li><a href="#">Computer Aided Design</a></li>
-                         <li><a href="#">3D Printing</a></li>
-                         <li><a href="#s">Laser Cutting</a></li>
+                         <li><a href="ComputerAidedDesign.html">Computer Aided Design</a></li>
+                         <li><a href="3DPrinting.html">3D Printing</a></li>
+                         <li><a href="LaserCutting.html">Laser Cutting</a></li>
                      </ul>
                     </div>
                     </li>
+                    </div>
                     
                     <li><a href="+">Module Project</a></li>
                 </ul>
@@ -34,13 +35,24 @@
             
         </div>
         <div class="content">
-            <h1>DIGITAL FABRICATION <br><span>AND</span> <br>PROTOTYPING FUNDAMENTALS</h1>
-            <p class="par">Hello, my name is Jessica. Welcome to my Webpage! In this webpage, I will be documenting what I have learnt, as well as projects that I have done. As you can see above there are various tabs in the navigation bar. Click on a topic to find out more about it!</p>
+            <h2>Computer Aided Design</h2>
+            
+            <h4 class="par">2D raster</h4>
+            <p class="par">Raster graphics are bitmaps. A bitmap is a grid of individual pixels that collectively compose an image. In computer graphics, raster images are a collection of countless tiny squares. Each square/pixel is coded in a specific hue or shade. They are then arranged in a grid formation to form an image. When viewed as a whole, the colored pixels make up a detailed image. Raster graphics are best used for non-line art images. Specifically digitised photographs, scanned artwork, and detailed graphics. Non-line art images are best represented in raster form as those includes subtle chromatic gradations, undefined lines and shapes, and complex composition. High resolution raster files are significantly larger than low resolution raster files.</p>
+            
+            <h4 class="par">2D vector</h4>
+            <p class="par">Vector graphics are based on mathematical formulas that define geometric primitives such as polygons, lines, curves, circles and rectangles. Vector graphics are best used to represent a more structured image, like line art graphics with flat, uniform colors. The formulas that govern the rendering of vector images apply identically to graphics of any size. Since it is not a pixel-based image, zooming in and out of a vector image will always be sharp/clear.</p>
+            <span style = "padding-left: 40px;"></span>
+            
+            <h4 class="par">Here is a comparison between a rastor and vector image:</h4>
+            <img src="Vectorrastor.png" style="padding-left: 20px;margin-top: 1%;margin-bottom: 4%;width:600px;height:320px;" >
+            
+            <h4 class="par">GIMP</h4>
+            <p class="par">GIMP is a free photo editing/graphic design software similar to Photoshop. It is mainly a raster graphics program. Now, I will be showing you an example on removing the background from an image and then adding it on top of another image. </p>
+            <embed src="gimpex.pdf" type="application/pdf" />
+            
         </div>
-        
-        <div class="footer">
-            Copyright &copy; 2021 Jessica Tan.
-        </div>
+
         
     </div>
 </body>
