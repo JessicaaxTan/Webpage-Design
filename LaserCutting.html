@@ -5,28 +5,30 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <div class="mainfablab">
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">WELCOME</h2>
             </div>
             
-            <div class="menu">
+             <div class="menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="AboutMe.html">About Me</a></li>
                     <li><a href="FabLabSafety.html">FabLab Safety</a></li>
+                    <li><a href="WebDevelopment.html">Web Development</a></li>
                     
+                    <div class="dropdown">
                     <li><a href="+">Projects</a>
                     <div class="morestuff">
                      <ul>
-                         <li><a href="WebDevelopment.html">Web Development</a></li>
-                         <li><a href="#">Computer Aided Design</a></li>
-                         <li><a href="#">3D Printing</a></li>
-                         <li><a href="#s">Laser Cutting</a></li>
+                         <li><a href="ComputerAidedDesign.html">Computer Aided Design</a></li>
+                         <li><a href="3DPrinting.html">3D Printing</a></li>
+                         <li><a href="LaserCutting.html">Computer Controlled Cutting</a></li>
+                         <li><a href="EmbeddedProgramming.html">Embedded Programming</a></li>
                      </ul>
                     </div>
                     </li>
+                    </div>
                     
                     <li><a href="+">Module Project</a></li>
                 </ul>
@@ -34,13 +36,79 @@
             
         </div>
         <div class="content">
-            <h1>DIGITAL FABRICATION <br><span>AND</span> <br>PROTOTYPING FUNDAMENTALS</h1>
-            <p class="par">Hello, my name is Jessica. Welcome to my Webpage! In this webpage, I will be documenting what I have learnt, as well as projects that I have done. As you can see above there are various tabs in the navigation bar. Click on a topic to find out more about it!</p>
+             <h2>Laser Cutting</h2>
+             <p class="par">LASER in laser cutting stands for Light Amplification by Stimulated Emission of Radiation.</p>
+             <p class="par">Laser cutting is a process where a material is placed along the XY plane and a very powerful laser beam at a precise focal length, is moved across and above the material. Which would either cut or etched depending on the settings. The high intensity of the beam will cause the material to be vaporised. Laser cutters cut materials similarly to other computer controlled tools. They use a beam of light instead of a blade.</p>
+             <p class="par">Common laser cutting materials used are wood, plastic, acrylic, cardboard and metal. There are also materials that are not safe to cut as it will cause fire. E.g. Polycarbonate, polystyrene foam, polypropylene foam and oily/resinous woods.</p>
+             <span style = "padding-left: 40px;"></span>
+             <h4>How does a laser cutting machine work?</h4>
+             <img src="lasercut.jpg" style="padding-left: 20px;margin-top: 1%;width:500px;height:330px;margin-bottom: 0.5%;" >
+             <p class="par">A typical beam is the CO2 laser beam as it’s wavelength is in the Infra-Red part of the light spectrum. It is invisible to the human eye. The beam bounces in different directions due to mirrors, before it focuses onto the lens. The lens helps to focus the laser beam down to a single precise pinpoint. Compressed gas such as Oxygen or Nitrogen is also flowing through the nozzle. Laser cutting is a stable, reliable, and very accurate cutting process. The smoke/fume extractor helps to prevent accumulation of smoke and gas in the machine. Contaminated air would go through the carbon and HEPA filter to remove microparticles and odors. The air compressor keeps the laser path free of smoke and debris.</p>
+             <span style = "padding-left: 40px;"></span>
+             <h4>EPILOG FUSION 40 M2 LASER</h4>
+             <p class="par">The laser cutting machine I am using would be the EPILOG FUSION 40 M2 LASER. Here's some information about this printer I found online:</p>
+             <img src="fusionlaser.jpg" style="padding-left: 20px;margin-top: 0.5%;width:400px;height:230px;margin-bottom: 0.5%;" >
+             <embed src="SOPLaserFusion40.pdf" type="application/pdf" />
+            
+             <h5>ASSIGNMENT</h5>
+             <p class="par">For the laser cutting assignment, I am to create a music box in Fusion 360 and then laser cut it out.</p>
+             <h4>Here's my music box and a quick summary of how I did it:</h4>
+             <figure><iframe src="https://hotmail196527.autodesk360.com/shares/public/SH35dfcQT936092f0e439efb04b3e58ecd67?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe></figure>
+             <embed src="musicbox.pdf" type="application/pdf" />
+             <p class="par">1. I am using parameters so that it would be easier for me to modify the dimensions if I need to. Parameters saves a fixed value we input.</p>
+             <p class="par">2. The sketch of the base plate.</p>
+             <p class="par">3. How the base plate looks like after extrusion.</p>
+             <p class="par">4. The sketch of the side plate.</p>
+             <p class="par">5. How the side plate looks like after extrusion.</p>
+             <p class="par">6. The sketch of the front plate.</p>
+             <p class="par">7. How the front plate looks like after extrusion.</p>
+             <p class="par">8. The sketch of the top plate.</p>
+             <p class="par">9. How the top plate looks like after extrusion..</p>
+             <p class="par">10. Changed the design for the top plate.</p>
+             <p class="par">11. Added a hinge on the side plate.</p>
+             <p class="par">12. Added supports for the hinge on the top plate.</p>
+             <p class="par">13. Copy and pasted the side and front plate. The front plate becomes the back plate and it needs changes.</p>
+             <p class="par">14. The back plate is changed.</p>
+             <p class="par">15. Added a hole on the right plate for the movement knob. I went to fillet the sharp edges of the top plate.</p>
+             <p class="par">16. The 3D model for the music box is done!</p>
+             <span style = "padding-left: 40px;"></span>
+            
+             <h4>Laser Cutting Preparation:</h4>
+             <p class="par">We would need to convert our 3D model to a .dxf file and then import it into Inkscape. To know more about inkscape, click <a class="selected" href="ComputerAidedDesign.html"><font color= #ff7200>here</font></a>.</p> 
+             <h4>Here is how I imported my 3D music box model into Inkscape:</h4>
+             <embed src="musicboxlasercut.pdf" type="application/pdf" />
+             <p class="par">1. I will only be demonstrating the top plate. Click on the surface of the top plate and then click Sketch.</p>
+             <p class="par">2. Click on FINISH SKETCH.</p>
+             <p class="par">3. Go to Sketches > choose the last sketch > save as .dxf file. Save the rest of the plates too.</p>
+             <p class="par">4. I wanted to add an engraving design on my music box, so the image I chose was Iron Man.</p>
+             <p class="par">5. Here's how the outline sketch of Iron Man look like. Repeat step 2-3 (save sketch as .dxf file).</p>
+             <p class="par">6. Import the all the .dxf file into Inkscape. Save it as .svg file in Inkscape.</p>
+             <span style = "padding-left: 40px;"></span>
+             <h4>Here's the final .svg file:</h4>
+             <img src="svgfile.png" style="padding-left: 20px;margin-top: 0.5%;width:600px;height:550px;margin-bottom: 2.5%;" >
+            
+             <h4>Settings for Laser Cutting:</h4>
+             <p class="par">1. When in the workshop, open the <a class="selected" href="https://www.coreldraw.com/en/product/coreldraw/?x-vehicle=ppc_brkws&trial=false&gclid=Cj0KCQiAoNWOBhCwARIsAAiHnEinVcYVa5OxFLqUfmG3zLq52hUJ_kNTmF_lVWVGLtzE8AS0PxRfyjkaAgtDEALw_wcB&gclsrc=aw.ds"><font color= #ff7200>CorelDraw</font></a> software and import our .svg file.</p>
+             <p class="par">2. Scale it to 1:1. Select and click on the lines that are meant to be cut out. Change the colour of selected lines to RGB <font color=FF0000>255, 0, 0 (red)</font>.</p>
+             <p class="par">3. Select and click on designs that are to be engraved. Change the colour to RGB <font color=00FF12>0, 255, 0 (green)</font>.</p>
+             <p class="par">4. Click on print.</p>
+             <p class="par">5. We would be redirected to the printing page. Always turn on <strong><font color= #ff7200>Auto Focus</font></strong>.</p>
+             <p class="par">6. For <strong><font color= #ff7200>cutting</font></strong>, Click on the import icon, Engrave: Cherry/Aider/Walnut 300 DPI. Thickness: 3mm and turn on air assist.</p>
+             <p class="par">7. For <strong><font color= #ff7200>engraving</font></strong>, Thickness: 3mm, Speed: 15%, Power: 85%. Click on the import icon, Vector: Plywood(3mm). Turn on air assist.</p>
+             <p class="par">8. Finally, click print and press the <font color=00FF12>GO</font> button on the machine.</p>
+            
+             <embed style="padding-left: 20px;margin-top: 0.5%;width:720px;height:450px;" src="https://www.youtube.com/embed/ZLzcLDCKqeU">
+             <img src="lasercut1.jpg" style="padding-left: 20px;margin-top: 0.5%;width:600px;height:370px;margin-bottom: 4%;" >
+            
+             <h4>Laser Cut Music Box:</h4>
+             <img src="lasercut2.jpg" style="padding-left: 20px;margin-top: 0.5%;width:600px;height:350px;margin-bottom: 0.8%;" >
+             <img src="lasercut3.jpg" style="padding-left: 20px;margin-top: 0%;width:600px;height:450px;margin-bottom: 2.5%;" >
+
+            
+            
         </div>
         
-        <div class="footer">
-            Copyright &copy; 2021 Jessica Tan.
-        </div>
+
         
     </div>
 </body>
